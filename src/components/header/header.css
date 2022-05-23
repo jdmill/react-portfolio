@@ -1,0 +1,51 @@
+header {
+  height: 100vh;
+  padding-top: 5rem;
+  overflow: hidden;
+}
+
+.header-container {
+  text-align: center;
+  height: 100%;
+  position: relative;
+}
+
+/*Btns~~~~~~~~~~~~*/
+
+.resume-btns {
+  margin-top: 2.5rem;
+  display: flex;
+  gap: 1.2rem;
+  justify-content: center;
+}
+
+.social-btns {
+  margin-top:.75rem;
+  gap: 1rem;
+  justify-content: center;
+  padding: .2rem .4rem;
+}
+
+.social-btns a {
+  padding: 1rem;
+}
+
+.social-btns::after {
+  content: '';
+  width: 1px;
+  height: 2rem;
+  background: var(--color-primary);
+}
+
+/* Profile Picture */
+
+.pic {
+  background: linear-gradient(var(--color-primary), transparent);
+  width: 24rem;
+  height: auto;
+  position: absolute;
+  right: calc(50% - 12rem);
+  margin-top: 5rem;
+  border-radius: 12rem 0 12rem 0;
+}
+
