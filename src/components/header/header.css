@@ -13,7 +13,7 @@ header {
 /*Btns~~~~~~~~~~~~*/
 
 .resume-btns {
-  margin-top: 2.5rem;
+  margin-top: 1rem;
   display: flex;
   gap: 1.2rem;
   justify-content: center;
@@ -23,11 +23,12 @@ header {
   margin-top:.75rem;
   gap: 1rem;
   justify-content: center;
-  padding: .2rem .4rem;
+  padding: 1rem .2rem 0 .2rem;
 }
 
 .social-btns a {
   padding: 1rem;
+  font-size: 2em;
 }
 
 .social-btns::after {
@@ -42,7 +43,7 @@ header {
 .pic {
   background: linear-gradient(var(--color-primary), transparent);
   width: 24rem;
-  height: auto;
+  height: 32rem;
   position: absolute;
   right: calc(50% - 12rem);
   margin-top: 5rem;

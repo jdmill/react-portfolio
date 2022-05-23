@@ -11,12 +11,12 @@ const Header = () => {
         <h5>Welcome, I'm</h5>
         <h1>Jonathan Miller</h1>
         <h5 className="text-light">Fullstack Developer</h5>
-        <ResumeBtn />
         <SocialBtns />
-      </div>
+        <ResumeBtn />
 
-      <div className="pic">
-        <img src="assets/profile-pic.png"></img>
+        <div className="pic">
+          <img src="assets/profile-pic.png"></img>
+        </div>
       </div>
     </header>
   );
