@@ -1,26 +1,76 @@
 header {
-  height: 100vh;
-  padding-top: 5rem;
-  overflow: hidden;
+  padding-top: 6rem;
 }
 
 .header-container {
   text-align: center;
   height: 100%;
-  position: relative;
+  display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.name{
+  font-size: 4rem;
+}
+
+.title {
+  font-size: 1rem;
+}
+.name:hover {
+  animation: bounce;
+  animation-duration: 2s;
+}
+
+.title:hover {
+  animation: bounce;
+  animation-duration: 2s;
+}
+/* Profile Picture */
+
+.pic {
+  background: linear-gradient(var(--color-primary), transparent);
+  display: flex;
+  width: 18rem;
+  height: 26rem;
+  margin-top: 4rem;
+  border-radius: 12rem 0 12rem 0;
+  flex-direction: column;
+}
+
+.pic-outline{
+  background: linear-gradient(var(--color-primary-variant), transparent);
+    width: 16rem;
+    height: 26rem;
+    margin: 2rem;
+    border-radius: 12rem 0 12rem 0;
+    z-index: 1;
+    overflow: hidden;
+}
+
+.pic img {
+  height: 24rem;
+}
+
+
+
+
+.pic-outline:hover {
+  animation: pulse;
+  animation-duration: 2.3s;
+  transition-timing-function: ease;
+}
+
+.pic:hover {
+  animation: pulse;
+    animation-duration: 2s;
+    transition-timing-function: ease;
 }
 
 /*Btns~~~~~~~~~~~~*/
 
-.resume-btns {
-  margin-top: 1rem;
-  display: flex;
-  gap: 1.2rem;
-  justify-content: center;
-}
-
 .social-btns {
-  margin-top:.75rem;
+  margin-top: .75rem;
   gap: 1rem;
   justify-content: center;
   padding: 1rem .2rem 0 .2rem;
@@ -32,21 +82,13 @@ header {
 }
 
 .social-btns::after {
-  content: '';
   width: 1px;
   height: 2rem;
   background: var(--color-primary);
 }
 
-/* Profile Picture */
-
-.pic {
-  background: linear-gradient(var(--color-primary), transparent);
-  width: 24rem;
-  height: 32rem;
-  position: absolute;
-  right: calc(50% - 12rem);
-  margin-top: 5rem;
-  border-radius: 12rem 0 12rem 0;
+@media only screen and (max-width: 600px) {
+  .name{
+    font-size: 2rem;
+  }
 }
-

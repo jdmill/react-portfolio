@@ -5,11 +5,13 @@ import {
   AiOutlineExperiment,
 } from "react-icons/ai";
 import { FaUserAstronaut } from "react-icons/fa";
+import { BiBadgeCheck } from "react-icons/bi";
 import "./nav.css";
 import { useState } from "react";
 
 const Nav = () => {
   const [activeNav, setActiveNav] = useState("#");
+
   return (
     <nav>
       <a
@@ -25,6 +27,13 @@ const Nav = () => {
         className={activeNav === "#about" ? "active" : ""}
       >
         <FaUserAstronaut />
+      </a>
+      <a
+        href="#skills"
+        onClick={() => setActiveNav("#skills")}
+        className={activeNav === "#skills" ? "active" : ""}
+      >
+        <BiBadgeCheck />
       </a>
       <a
         href="#portfolio"
