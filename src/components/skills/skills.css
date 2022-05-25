@@ -1,0 +1,70 @@
+h1 {
+  display: flex;
+  justify-content: center;
+}
+
+#skill {
+  display: flex;
+  justify-content: center;
+}
+
+.skills-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  gap: 3rem;
+}
+
+.skills-container > div {
+  background: linear-gradient(var(--color-bg-variant), var(--color-bg));
+  padding: 2.5rem 5rem;
+  border-radius: 2rem;
+  border: 1px solid transparent;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  flex-basis: 44%;
+}
+
+.skills-container > div:hover {
+  background: transparent;
+    border-color: rgba(80, 137, 145);
+    cursor: default;
+    transition: .5s;
+}
+
+.skills-container > div h2 {
+  text-align: center;
+  margin-bottom: 2rem;
+  color: var(--color-primary);
+  flex-basis: 100%;
+}
+
+.skills-content {
+  display:flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  padding: 1rem;
+  flex-basis: fit-content;
+  flex-basis: 44%;
+  
+}
+
+.skills-content > h3 {
+  padding: .2rem;
+}
+
+.text-light {
+  color: var(--color-light)
+}
+@media screen and (max-width: 1024px) {
+  .skills-container{
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .skills-container > div {
+    width: 80%;
+
+  }
+}
