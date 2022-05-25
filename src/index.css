@@ -13,8 +13,8 @@
 }
 
 :root {
-  --color-bg: #002A32;
-  --color-bg-variant: #352659;
+  --color-bg: #021b20;
+  --color-bg-variant: #37285c;
   --color-primary: #74B3CE;
   --color-primary-variant: rgba(80,137,145,.4);
   --color-white: #fff;
@@ -43,6 +43,7 @@ body {
   color: white;
   line-height: 1.7;
   background-image: url(../src/assets/bright-squares-texture.png);
+  background-attachment: fixed;
 }
 
 /* Main Styles */

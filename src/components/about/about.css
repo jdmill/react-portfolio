@@ -21,13 +21,6 @@
 .about-me-img {
   border-radius: 2rem;
   overflow: hidden;
-  transform: rotate(10deg);
-}
-
-.about-me-img:hover {
-  transform: rotate(0);
-  overflow: hidden;
-  transition: .5s;
 }
 
 .about-me-cards {
@@ -48,8 +41,10 @@
 }
 
 .about-me-card:hover {
-  background: transparent;
-  border-color: rgba(80, 137, 145);
+background-blend-mode: hard-light;
+  background-color: var(--color-bg-variant, 0.5);
+  animation: pulse;
+  animation-duration: 2.3s;
   cursor: default;
   transition: .5s;
 }
