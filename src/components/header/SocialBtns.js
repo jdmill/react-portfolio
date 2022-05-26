@@ -6,13 +6,17 @@ import Resume from "../../assets/JonMillerResume.pdf";
 const SocialBtns = () => {
   return (
     <div className="social-btns">
-      <a href={Resume} target="_blank">
+      <a href={Resume} target="_blank" rel="noreferrer">
         <BsFillFileEarmarkPdfFill />
       </a>
-      <a href="https://www.linkedin.com/in/jdmill/" target="_blank">
+      <a
+        href="https://www.linkedin.com/in/jdmill/"
+        target="_blank"
+        rel="noreferrer"
+      >
         <BsLinkedin />
       </a>
-      <a href="https://www.github.com/jdmill" target="_blank">
+      <a href="https://www.github.com/jdmill" target="_blank" rel="noreferrer">
         <BsGithub />
       </a>
     </div>

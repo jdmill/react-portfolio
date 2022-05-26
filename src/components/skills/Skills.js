@@ -16,8 +16,6 @@ import {
 const Skills = () => {
   return (
     <section id="skills">
-      <h2>Skills</h2>
-
       <div className="container skills-container">
         <div className="skills-container-div">
           <h2>Frontend Development</h2>

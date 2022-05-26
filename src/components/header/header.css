@@ -1,5 +1,5 @@
 header {
-  padding-top: 6rem;
+  padding-top: 5rem;
 }
 
 .header-container {
@@ -16,15 +16,6 @@ header {
 
 .title {
   font-size: 1rem;
-}
-.name:hover {
-  animation: bounce;
-  animation-duration: 2s;
-}
-
-.title:hover {
-  animation: bounce;
-  animation-duration: 2s;
 }
 
 /*Btns~~~~~~~~~~~~*/

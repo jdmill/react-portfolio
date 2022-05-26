@@ -3,12 +3,11 @@ import "./about.css";
 import Pic from "../../assets/suit-pic.png";
 import { BsPersonSquare } from "react-icons/bs";
 import { FaUserGraduate } from "react-icons/fa";
+import Resume from "../../assets/JonMillerResume.pdf";
 
 export const About = () => {
   return (
     <section id="about">
-      <h2>About Me</h2>
-
       <div className="container about-container">
         <div className="about-me">
           <div className="pic">
@@ -52,6 +51,19 @@ export const About = () => {
             question of why this code is being developed from a user perspective
             so that the end product is a seamless bespoke experience.
           </p>
+          <div className="btn-div">
+            <a
+              href={Resume}
+              className="btn btn-primary"
+              target="_blank"
+              rel="noreferrer"
+            >
+              Resume
+            </a>
+            <a href="#contact" className="btn btn-primary">
+              Let's Talk
+            </a>
+          </div>
         </div>
       </div>
     </section>

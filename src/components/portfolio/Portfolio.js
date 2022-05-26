@@ -10,11 +10,13 @@ import Img6 from "../../assets/note-taker.png";
 export const Portfolio = () => {
   return (
     <section id="portfolio">
-      <h2>Portfolio</h2>
-
       <div className="container portfolio-container">
         <article className="portfolio-item">
-          <a href="https://github.com/jdmill/this-is-war" target="_blank">
+          <a
+            href="https://github.com/jdmill/this-is-war"
+            target="_blank"
+            rel="noreferrer"
+          >
             <div className="portfolio-item-img">
               <img src={Img1} alt="This is war, mockup" />
             </div>
@@ -22,7 +24,11 @@ export const Portfolio = () => {
           </a>
         </article>
         <article className="portfolio-item">
-          <a href="https://github.com/jdmill/Eventplan" target="_blank">
+          <a
+            href="https://github.com/jdmill/Eventplan"
+            target="_blank"
+            rel="noreferrer"
+          >
             <div className="portfolio-item-img">
               <img src={Img2} alt="EventPlan" />
             </div>
@@ -33,6 +39,7 @@ export const Portfolio = () => {
           <a
             href="https://github.com/jdmill/weather-dashboard-for-winners"
             target="_blank"
+            rel="noreferrer"
           >
             <div className="portfolio-item-img">
               <img src={Img3} alt="Weather Dashboard" />
@@ -44,6 +51,7 @@ export const Portfolio = () => {
           <a
             href="https://github.com/jdmill/day-planner-for-chumps"
             target="_blank"
+            rel="noreferrer"
           >
             <div className="portfolio-item-img">
               <img src={Img4} alt="Day Planner" />
@@ -55,6 +63,7 @@ export const Portfolio = () => {
           <a
             href="https://github.com/jdmill/regular-text-editor"
             target="_blank"
+            rel="noreferrer"
           >
             <div className="portfolio-item-img">
               <img src={Img5} alt="Text Editor" />
@@ -63,7 +72,11 @@ export const Portfolio = () => {
           </a>
         </article>
         <article className="portfolio-item">
-          <a href="https://github.com/jdmill/nifty-note-taker" target="_blank">
+          <a
+            href="https://github.com/jdmill/nifty-note-taker"
+            target="_blank"
+            rel="noreferrer"
+          >
             <div className="portfolio-item-img">
               <img src={Img6} alt="This is war, mockup" />
             </div>
