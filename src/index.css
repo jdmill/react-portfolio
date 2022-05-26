@@ -22,7 +22,7 @@
 
   --transition: 400;
 
-  --container-width-lg: 75%;
+  --container-width-lg: 70%;
   --container-width-md: 85%;
   --container-width-sm: 90%;
 
@@ -42,8 +42,9 @@ body {
   font-family: 'Poppins', sans-serif;
   color: white;
   line-height: 1.7;
-  background-image: url(../src/assets/diagonal-striped-brick.png);
-  background-attachment: fixed;
+  background-color: #021b20;
+  /* background-image: url(../src/assets/diagonal-striped-brick.png);
+  background-attachment: fixed; */
 }
 
 /* Main Styles */
@@ -60,7 +61,7 @@ h1 {
 }
 
 section {
-  margin-top: 7rem;
+  margin-top: 5.5rem;
 }
 
 section > h2, section > h5 {

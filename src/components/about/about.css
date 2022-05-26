@@ -5,24 +5,24 @@
 }
 
 .about-me {
-  
   display: flex;
   align-items: center;
   justify-content: space-around;
 }
 
-.about-me-img-container {
+/* Was for another image I decided to remove */
+/* .about-me-img-container {
   border-radius: 2rem;
   background: linear-gradient(45deg,
-        transparent,
-        var(--color-primary),
-        transparent);
+  transparent,
+  var(--color-primary),
+  transparent);
 }
 
 .about-me-img {
   border-radius: 2rem;
   overflow: hidden;
-}
+} */
 
 .about-me-cards {
   display: flex;
@@ -44,7 +44,6 @@
 .about-me-card:hover {
   background-blend-mode: hard-light;
   background-color: var(--color-bg-variant, 0.5);
-  animation: pulse;
   animation-duration: 2.3s;
   cursor: default;
   transition: .5s;
@@ -70,28 +69,39 @@
   font-size: .85rem;
 }
 
+/* buttons */
+.btn-div {
+  display: flex;
+  justify-content: center;
+}
+.btn-div a {
+  margin: .5rem;
+  justify-content: center;
+}
+
+
+/* Picture outline and stlying */
 .pic {
   background: linear-gradient(var(--color-primary), transparent);
   display: flex;
-  width: 18rem;
-  height: 26rem;
-  margin-top: 4rem;
+  width: 20rem;
+  height: 28rem;
   border-radius: 12rem 0 12rem 0;
   flex-direction: column;
 }
 
 .pic-outline {
   background: linear-gradient(var(--color-primary-variant), transparent);
-  width: 16rem;
-  height: 26rem;
-  margin: 2rem;
+  width: 20rem;
+  height: 28rem;
+  margin: 1.5rem;
   border-radius: 12rem 0 12rem 0;
   z-index: 1;
   overflow: hidden;
 }
 
 .pic img {
-  height: 24rem;
+  height: 28rem;
 }
 
 .pic-outline:hover {
@@ -101,11 +111,12 @@
 }
 
 .pic:hover {
-  animation: pulse;
+  animation:pulse;
   animation-duration: 2s;
   transition-timing-function: ease;
 }
 
+/* Media Queries */
 @media screen and (max-width: 1024px) {
   .about-container {
     grid-template-columns: 1fr;
@@ -124,7 +135,7 @@
 @media screen and (max-width: 600px) {
   .about-me {
     width: 80%;
-    margin: 0 auto 3rem;
+    margin: 0 auto 7rem;
   }
 
   .about-me-cards {
@@ -146,6 +157,19 @@
   .about-content p {
     margin: 1.5rem 0;
   }
+}
 
-  
+/* This is only for the stupid galaxy edge */
+@media screen and (max-width: 350px) {
+  .pic {
+    width: 16rem;
+    height: 24rem;
+  }
+
+    .pic-outline {
+      width: 16rem;
+      height: 24rem;
+      margin: 0;
+    }
+
 }

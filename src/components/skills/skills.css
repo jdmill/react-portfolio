@@ -17,7 +17,7 @@ h1 {
 
 .skills-container > div {
   background: linear-gradient(var(--color-bg-variant), var(--color-bg));
-  padding: 2.5rem 5rem;
+  padding: 2.5rem 2.5rem;
   /* border-radius: 2rem; */
   border: 1px solid transparent;
   display: flex;
@@ -29,7 +29,6 @@ h1 {
 .skills-container > div:hover {
   background-blend-mode: hard-light;
     background-color: var(--color-bg-variant, 0.5);
-    animation: pulse;
     animation-duration: 2.3s;
 }
 

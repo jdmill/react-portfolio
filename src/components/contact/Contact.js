@@ -4,7 +4,6 @@ import "./contact.css";
 export const Contact = () => {
   return (
     <section id="contact">
-      <h2>Connect</h2>
       <div className="container contact-container">
         <div className="contact-methods">
           <article className="contact-method">
@@ -26,12 +25,6 @@ export const Contact = () => {
             </a>
           </article>
         </div>
-        <form action="">
-          <input type="text" name="name" placeholder="Name" required />
-          <input type="email" name="email" placeholder="Email" required />
-          <textarea name="message" rows="7" placeholder="Message" required />
-          <input type="submit"></input>
-        </form>
       </div>
     </section>
   );

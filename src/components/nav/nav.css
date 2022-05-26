@@ -26,3 +26,10 @@ nav a.active {
   background: var(--color-primary-variant);
   color: white;
 }
+/* This is only for the edge.. */
+@media screen and (max-width: 350px) {
+  .nav {
+    gap: 0.1rem;
+  }
+
+}
