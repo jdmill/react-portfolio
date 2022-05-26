@@ -1,16 +1,21 @@
 {
   "files": {
-    "main.css": "/react-portfolio/static/css/main.073c9b0a.css",
-    "main.js": "/react-portfolio/static/js/main.88a93c55.js",
-    "static/js/787.a2cb61a6.chunk.js": "/react-portfolio/static/js/787.a2cb61a6.chunk.js",
-    "static/media/logo.svg": "/react-portfolio/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
+    "main.css": "/react-portfolio/static/css/main.096496df.css",
+    "main.js": "/react-portfolio/static/js/main.a2580dc7.js",
+    "static/media/thisiswarmockup.png": "/react-portfolio/static/media/thisiswarmockup.8dff54e0dc1a8fa10ccd.png",
+    "static/media/EventPlan-SC.png": "/react-portfolio/static/media/EventPlan-SC.f510af485f278cec1256.png",
+    "static/media/suit-pic.png": "/react-portfolio/static/media/suit-pic.a9ba2cb99ae2e8871687.png",
+    "static/media/JonMillerResume.pdf": "/react-portfolio/static/media/JonMillerResume.13b5bd0a7dd61a60b525.pdf",
+    "static/media/dayplanner.png": "/react-portfolio/static/media/dayplanner.efab17fcd8f75971169d.png",
+    "static/media/weather-dashboard.png": "/react-portfolio/static/media/weather-dashboard.90df7016b2f8fe99ebe5.png",
+    "static/media/text-editor.png": "/react-portfolio/static/media/text-editor.6a3fdc88c28a4adaac7a.png",
+    "static/media/note-taker.png": "/react-portfolio/static/media/note-taker.1acb3c39eaffb7fbb805.png",
     "index.html": "/react-portfolio/index.html",
-    "main.073c9b0a.css.map": "/react-portfolio/static/css/main.073c9b0a.css.map",
-    "main.88a93c55.js.map": "/react-portfolio/static/js/main.88a93c55.js.map",
-    "787.a2cb61a6.chunk.js.map": "/react-portfolio/static/js/787.a2cb61a6.chunk.js.map"
+    "main.096496df.css.map": "/react-portfolio/static/css/main.096496df.css.map",
+    "main.a2580dc7.js.map": "/react-portfolio/static/js/main.a2580dc7.js.map"
   },
   "entrypoints": [
-    "static/css/main.073c9b0a.css",
-    "static/js/main.88a93c55.js"
+    "static/css/main.096496df.css",
+    "static/js/main.a2580dc7.js"
   ]
 }
