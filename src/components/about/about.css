@@ -8,6 +8,7 @@
   
   display: flex;
   align-items: center;
+  justify-content: space-around;
 }
 
 .about-me-img-container {
@@ -32,16 +33,16 @@
 }
 
 .about-me-card {
-  background: var(--color-bg-variant);
+  background: linear-gradient(var(--color-bg-variant), var(--color-bg));
   border: 1px solid transparent;
   padding: 2rem;
   text-align:center;
-  border-radius: 1rem;
+  /* border-radius: 1rem; */
   width: 33%;
 }
 
 .about-me-card:hover {
-background-blend-mode: hard-light;
+  background-blend-mode: hard-light;
   background-color: var(--color-bg-variant, 0.5);
   animation: pulse;
   animation-duration: 2.3s;
@@ -67,6 +68,42 @@ background-blend-mode: hard-light;
   color: var(--color-light);
   margin: 2rem 0 1rem;
   font-size: .85rem;
+}
+
+.pic {
+  background: linear-gradient(var(--color-primary), transparent);
+  display: flex;
+  width: 18rem;
+  height: 26rem;
+  margin-top: 4rem;
+  border-radius: 12rem 0 12rem 0;
+  flex-direction: column;
+}
+
+.pic-outline {
+  background: linear-gradient(var(--color-primary-variant), transparent);
+  width: 16rem;
+  height: 26rem;
+  margin: 2rem;
+  border-radius: 12rem 0 12rem 0;
+  z-index: 1;
+  overflow: hidden;
+}
+
+.pic img {
+  height: 24rem;
+}
+
+.pic-outline:hover {
+  animation: pulse;
+  animation-duration: 2.3s;
+  transition-timing-function: ease;
+}
+
+.pic:hover {
+  animation: pulse;
+  animation-duration: 2s;
+  transition-timing-function: ease;
 }
 
 @media screen and (max-width: 1024px) {

@@ -1,6 +1,6 @@
 import React from "react";
 import "./header.css";
-import Pic from "../../assets/suit-pic.png";
+// import Pic from "../../assets/pexels-scott-webb.jpg";
 import SocialBtns from "../header/SocialBtns";
 
 const Header = () => {
@@ -10,11 +10,9 @@ const Header = () => {
         <h1 className="name">Jonathan Miller</h1>
         <h5 className="text-light title">Fullstack Developer</h5>
         <SocialBtns />
-        <div className="pic">
-          <div className="pic-outline">
-            <img src={Pic} alt="It's just me"></img>
-          </div>
-        </div>
+        {/* <div className="her0">
+          <img src={Pic} alt="hero"></img>
+        </div> */}
       </div>
     </header>
   );
