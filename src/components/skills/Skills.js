@@ -19,7 +19,7 @@ const Skills = () => {
       <h2>Skills</h2>
 
       <div className="container skills-container">
-        <div className="frontend">
+        <div className="skills-container-div">
           <h2>Frontend Development</h2>
           <div className="skills-content">
             <SiHtml5 />

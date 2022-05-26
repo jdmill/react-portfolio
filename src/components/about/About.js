@@ -1,20 +1,19 @@
 import React from "react";
 import "./about.css";
-import Pic from "../../assets/profile-pic.png";
+import Pic from "../../assets/suit-pic.png";
 import { BsPersonSquare } from "react-icons/bs";
 import { FaUserGraduate } from "react-icons/fa";
 
 export const About = () => {
   return (
     <section id="about">
-      <h5>Learn</h5>
       <h2>About Me</h2>
 
       <div className="container about-container">
         <div className="about-me">
-          <div className="about-me-img-container">
-            <div className="about-me-img">
-              <img src={Pic} alt="About Section Profile" />
+          <div className="pic">
+            <div className="pic-outline">
+              <img src={Pic} alt="It's just me"></img>
             </div>
           </div>
         </div>
@@ -23,7 +22,7 @@ export const About = () => {
             <article className="about-me-card">
               <FaUserGraduate className="about-card-icon" />
               <h5>Diploma</h5>
-              <p>University of North Georgia</p>
+              <p>U.N.G</p>
               <p>B.S. Computer Science</p>
             </article>
             <article className="about-me-card">
