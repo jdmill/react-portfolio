@@ -17,7 +17,7 @@ export const Portfolio = () => {
             target="_blank"
             rel="noreferrer"
           >
-            <div className="screenshot1">
+            <div className="portfolio-item-img">
               <img src={Img6} alt="Dev Doctor" />
             </div>
             <h3>Dev Doctor</h3>
