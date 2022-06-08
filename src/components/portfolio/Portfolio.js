@@ -13,6 +13,18 @@ export const Portfolio = () => {
       <div className="container portfolio-container">
         <article className="portfolio-item">
           <a
+            href="https://github.com/jdmill/devdoc"
+            target="_blank"
+            rel="noreferrer"
+          >
+            <div className="screenshot1">
+              <img src={Img6} alt="Dev Doctor" />
+            </div>
+            <h3>Dev Doctor</h3>
+          </a>
+        </article>
+        <article className="portfolio-item">
+          <a
             href="https://github.com/jdmill/this-is-war"
             target="_blank"
             rel="noreferrer"
@@ -69,18 +81,6 @@ export const Portfolio = () => {
               <img src={Img5} alt="Text Editor" />
             </div>
             <h3>Text Editor</h3>
-          </a>
-        </article>
-        <article className="portfolio-item">
-          <a
-            href="https://github.com/jdmill/nifty-note-taker"
-            target="_blank"
-            rel="noreferrer"
-          >
-            <div className="portfolio-item-img">
-              <img src={Img6} alt="This is war, mockup" />
-            </div>
-            <h3>Note Taker</h3>
           </a>
         </article>
       </div>
