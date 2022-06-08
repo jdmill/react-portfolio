@@ -5,7 +5,7 @@ import Img2 from "../../assets/EventPlan-SC.png";
 import Img3 from "../../assets/weather-dashboard.png";
 import Img4 from "../../assets/dayplanner.png";
 import Img5 from "../../assets/text-editor.png";
-import Img6 from "../../assets/note-taker.png";
+import Img6 from "../../assets/screenshot1";
 
 export const Portfolio = () => {
   return (
