@@ -41,6 +41,12 @@ WHEN I view the footer
 THEN I am presented with text or icon links to the developer’s GitHub and LinkedIn profiles, and their profile on a third platform (Stack Overflow, Twitter)
 ```
 
+## Technologies Used
+HTML
+CSS
+JavaScript
+Node.js
+React
 ##
 ![portfoliosc](https://user-images.githubusercontent.com/9371206/170706003-17cfa33a-1d32-42ba-9a67-23883d2b33fc.png)
 
